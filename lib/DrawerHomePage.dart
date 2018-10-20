@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'chat.dart';
-
+// import 'chat.dart';
+import 'Address.dart';
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
 
@@ -55,10 +55,12 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               title: Text('Add Address'),
               onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => ChatScreen()),
-                );
+                Navigator.push(context,
+                 MaterialPageRoute(builder:(context)=> Address()));
+                // Navigator.push(
+                //   context,
+                //   MaterialPageRoute(builder: (context) => ChatScreen()),
+                // );
               },
             ),
             ListTile(
