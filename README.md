@@ -1,6 +1,6 @@
-# inpu
+# dra
 
-A new flutter application project.
+A new Flutter project.
 
 ## Getting Started
 
