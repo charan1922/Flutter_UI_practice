@@ -44,6 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             UserAccountsDrawerHeader(
               accountName: Text("Charan"),
+              accountEmail: Text("data"),
               decoration: new BoxDecoration(
                 color: Colors.red,
               ),
